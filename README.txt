@@ -6,6 +6,6 @@ To-Do: Need to add NameErrors to the required componets for MPC submission into 
 
 
 2023 June:
-The goal of this code is to provide a few simple functions that will allow an observer easily output ADES XML format for the submission of astrometry observations to
+The goal of this code is to provide a few simple functions that will allow an observer to easily output ADES XML format for the submission of astrometry observations to
 the Minor Planet Center.
 

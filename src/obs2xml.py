@@ -104,6 +104,11 @@ def output2ADES2017(
     comment_line.text = d_comment
     #---------------------------------------------------------
 
+
+
+
+    
+
     #obsData Information to the next #$$$$$
     #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     obsData = XMLElement.SubElement( obsBlock, "obsData" )
@@ -197,6 +202,8 @@ def output2ADES2017(
             tree.write(files, encoding="UTF-8", xml_declaration=True)
 
 if __name__ == "__main__":
+
+    #below allows a user to call obs2xml.py and have the function create an xml file for testing the function
 
     #Below is for testing purposes
     output_filename     = "ADES2017.xml" 
